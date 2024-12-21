@@ -1,11 +1,13 @@
 import React from "react";
-import Header from "../components/Layout/Header";
+import Feature from "../components/Feature";
 import Layout from "../components/Layout/Layout";
 
 export default function Home() {
   return (
     <>
-        <Layout />
+        <Layout>
+            <Feature />
+        </Layout>
     </>
   );
 }
