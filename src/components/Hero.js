@@ -10,17 +10,17 @@ const Hero = ({
     {
       name: "Users",
       number: "390",
-      icon: "/assets/Icon/heroicons_sm-user.svg",
+      icon: "./assets/Icon/heroicons_sm-user.svg",
     },
     {
       name: "Locations",
       number: "20",
-      icon: "/assets/Icon/gridicons_location.svg",
+      icon: "./assets/Icon/gridicons_location.svg",
     },
     {
       name: "Server",
       number: "50",
-      icon: "/assets/Icon/bx_bxs-server.svg",
+      icon: "./assets/Icon/bx_bxs-server.svg",
     },
   ],
 }) => {
@@ -48,7 +48,7 @@ const Hero = ({
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
                 <Image
-                  src="/assets/Illustration1.png"
+                  src="./assets/Illustration1.png"
                   alt="VPN Illustrasi"
                   quality={100}
                   width={612}

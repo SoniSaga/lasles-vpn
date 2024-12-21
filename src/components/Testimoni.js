@@ -9,7 +9,7 @@ const Testimoni = ({
   listTestimoni = [
     {
       name: "iezh Robert",
-      image: "/assets/people-3.png",
+      image: "./assets/people-3.png",
       city: "Warsaw",
       country: "Poland",
       rating: "4.5",
@@ -18,7 +18,7 @@ const Testimoni = ({
     },
     {
       name: "iezh Robert",
-      image: "/assets/people-3.png",
+      image: "./assets/people-3.png",
       city: "Warsaw",
       country: "Poland",
       rating: "4.5",
@@ -27,7 +27,7 @@ const Testimoni = ({
     },
     {
       name: "iezh Robert",
-      image: "/assets/people-3.png",
+      image: "./assets/people-3.png",
       city: "Warsaw",
       country: "Poland",
       rating: "4.5",
@@ -36,7 +36,7 @@ const Testimoni = ({
     },
     {
       name: "iezh Robert",
-      image: "/assets/people-3.png",
+      image: "./assets/people-3.png",
       city: "Warsaw",
       country: "Poland",
       rating: "4.5",
@@ -111,7 +111,7 @@ const Testimoni = ({
                   <p className="text-sm">{listTestimonis.rating}</p>
                   <span className="flex ml-4">
 
-                    <ReactSVG src="assets/Icon/stars.svg" beforeInjection={(svg) => {
+                    <ReactSVG src="./assets/Icon/stars.svg" beforeInjection={(svg) => {
                       svg.setAttribute('class', 'h-4 w-4');
                     }} />
                   </span>
@@ -128,7 +128,7 @@ const Testimoni = ({
             className="mx-4 flex items-center justify-center h-14 w-14 rounded-full bg-white border-orange-500 border hover:bg-orange-500 hover:text-white-500 transition-all text-orange-500 cursor-pointer"
             onClick={sliderRef?.slickPrev}
           >
-            <ReactSVG src="assets/Icon/eva_arrow-back-fill.svg" beforeInjection={(svg) => {
+            <ReactSVG src="./assets/Icon/eva_arrow-back-fill.svg" beforeInjection={(svg) => {
               svg.setAttribute('class', 'h-6 w-6');
             }} />
           </div>
@@ -136,7 +136,7 @@ const Testimoni = ({
             className="flex items-center justify-center h-14 w-14 rounded-full bg-white border-orange-500 border hover:bg-orange-500 hover:text-white-500 transition-all text-orange-500 cursor-pointer"
             onClick={sliderRef?.slickNext}
           >
-            <ReactSVG src="assets/Icon/eva_arrow-next-fill.svg" beforeInjection={(svg) => {
+            <ReactSVG src="./assets/Icon/eva_arrow-next-fill.svg" beforeInjection={(svg) => {
               svg.setAttribute('class', 'h-6 w-6');
             }} />
           </div>

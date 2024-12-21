@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-screen-xl w-full mx-auto px-16 grid grid-col grid-cols-12 gap-4">
         <div className=" col-start-1 col-end-5 flex flex-col ">
 
-          <ReactSVG src="assets/Logo.svg" beforeInjection={(svg) => {
+          <ReactSVG src="./assets/Logo.svg" beforeInjection={(svg) => {
             svg.setAttribute('class', 'h-8 w-auto mb-8');
           }} />
           <p className="mb-8">
@@ -17,17 +17,17 @@ const Footer = () => {
           </p>
           <div className="flex flex-row -mx-2 mb-8">
             <div className="flex rounded-full bg-white-500 p-2 shadow-md items-center mx-2">
-              <ReactSVG src="assets/Icon/facebook.svg" beforeInjection={(svg) => {
+              <ReactSVG src="./assets/Icon/facebook.svg" beforeInjection={(svg) => {
                 svg.setAttribute('class', 'h6 w6');
               }} />
             </div>
             <div className="flex rounded-full bg-white-500 p-2  shadow-md items-center mx-2">
-              <ReactSVG src="assets/Icon/twitter.svg" beforeInjection={(svg) => {
+              <ReactSVG src="./assets/Icon/twitter.svg" beforeInjection={(svg) => {
                 svg.setAttribute('class', 'h6 w6');
               }} />
             </div>
             <div className="flex rounded-full bg-white-500 p-2  shadow-md items-center mx-2">
-              <ReactSVG src="assets/Icon/instagram.svg" beforeInjection={(svg) => {
+              <ReactSVG src="./assets/Icon/instagram.svg" beforeInjection={(svg) => {
                 svg.setAttribute('class', 'h6 w6');
               }} />
             </div>
